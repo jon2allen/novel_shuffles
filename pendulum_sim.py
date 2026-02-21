@@ -92,7 +92,7 @@ def main(stdscr):
     
     # Draw initial state
     draw_state(stdscr, arr, 0, len(arr)-1, 0, "INIT")
-    time.sleep(9)
+    time.sleep(2)
 
     # Run the generator
     for state_arr, left, right, active_idx, status in pendulum_shuffle_gen(arr):
